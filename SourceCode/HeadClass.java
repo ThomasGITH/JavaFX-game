@@ -16,6 +16,8 @@ public class HeadClass extends Application{
 	int score;
 	
 	boolean FS;
+	
+	//VERANDER HIER BEIDE FILE-PATHS OP DEZELFDE MANIER ALS HIERONDER
 	Media buttonSound = new Media("FILE:///D:/Users/tlins/eclipse-workspace/newProjectGame/src/sounds/327725__distillerystudio__button-02.wav");
 	Media buttonConfirmation = new Media("FILE:///D:/Users/tlins/eclipse-workspace/newProjectGame/src/sounds/403015__inspectorj__ui-confirmation-alert-c2.wav");
 	MediaPlayer BC = new MediaPlayer(buttonConfirmation);
